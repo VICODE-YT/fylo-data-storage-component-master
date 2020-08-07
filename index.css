@@ -1,0 +1,87 @@
+:root{
+    --background:#121212;
+    --background-secondary: #2a2a2a;
+
+    --lirycs-secondary:#6d6d6d;
+    --lirycs:#f1eff1;
+
+    --accent-color:#0078f0;
+
+    margin: 0;
+    padding: 0;
+
+
+    -ms-hyphenate-limit-chars: hsl(243, 100%, 93%);
+    --Grayish-Blue: hsl(229, 7%, 55%);
+    --Dark-Blue: hsl(228, 56%, 26%);
+    --Very-Dark-Blue: hsl(229, 57%, 11%);
+}
+
+body{
+/*     background-color: var(--lirycs-secondary);
+ *//*     padding: 6em 3em 0 3em;
+ */    
+  
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--Very-Dark-Blue);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.storage-component{
+    display: flex;
+    flex-wrap: nowrap;
+/*     width: 320px;
+ */  
+    width: 14em;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-fylo{
+    background-color: var(--Dark-Blue);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 0.75em 7em 0.75em 0.75em;
+    /* padding: 3em 4em 3em 2em; */
+    padding: 3em 4em 3em 2em;
+}
+.logo-contain{
+    margin-bottom: 1em;
+}
+.icons-content{
+    display: flex;
+    justify-content: flex-start;
+}
+.icons-content>img{
+    padding: 0.75em;
+    background-color: var(--Very-Dark-Blue);
+    border-radius: 0.5em;
+    margin-right: 1em;
+    object-fit: contain;
+}
+.capacity-used{
+    
+}
+
+@media screen and (min-width:320px){/* until 375 */
+    body{
+        background-image: url("images/bg-mobile.png");
+    }
+}
+@media screen and (min-width:415px){/* 1440px */
+    body{
+        background-image: url("images/bg-desktop.png");
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+    }
+}

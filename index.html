@@ -13,15 +13,39 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-  You’ve used 815 GB of your storage
+  <div class="storage-component">
+    <div class="header-fylo">
+      <div class="logo-contain">
+          <img src="images/logo.svg" alt="Fylo_icon">
+      </div>
+      <div class="icons-content">
+        <img src="images/icon-document.svg" alt="document-icon">
+        <img src="images/icon-folder.svg" alt="folder-icon">
+        <img src="images/icon-upload.svg" alt="upload-icon">
+      </div>
 
-  185 GB Left
+    </div>
+
+    <div class="capacity-used">
+      <div class="space-used">You’ve used 815 GB of your storage</div>
+      <div class="bar-capacity">I Am A Bar</div><!-- after and before -->
+      <div class="left-capacity">185 GB Left</div>
+    </div>
+    
+  </div>
+
+
+ 
   
-  0 GB
-  1000 GB
+<!--   0 GB
+  1000 GB -->
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
