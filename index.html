@@ -9,13 +9,13 @@
   <title>Frontend Mentor | Fylo data storage component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+<!--   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="normalize.css">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+  rel="stylesheet">  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -34,8 +34,14 @@
     </div>
 
     <div class="capacity-used">
-      <div class="space-used">You’ve used 815 GB of your storage</div>
-      <div class="bar-capacity">I Am A Bar</div><!-- after and before -->
+      <div class="space-used">You’ve used <span>815 GB</span> of your storage</div>
+      <div class="bar-capacity">
+        <div class="bar-progess">
+          <div class="marker-progress">
+
+          </div>
+        </div>
+      </div>
       <div class="left-capacity">185 GB Left</div>
     </div>
     
@@ -47,9 +53,9 @@
 <!--   0 GB
   1000 GB -->
   
-  <div class="attribution">
+<!--   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
