@@ -134,6 +134,35 @@ body{
     height: .9em;
     border-radius: 1em;
 }
+.leftSpace-contain{
+    position: relative;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.left-capacity{
+    background-color: var(--ms-hyphenate-limit-chars);
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: var(--Grayish-Blue);
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 0.5em;
+    position: absolute;
+    /* height: 3em;
+    width: 3em; */
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.left-capacity>span{
+    font-size: 38px;
+    color: black;
+    font-weight: 700;
+    margin-right: 8px;
+}
 
 @media screen and (min-width:320px){/* until 375 */
     body{
