@@ -91,8 +91,7 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     color: var(--Grayish-Blue);
-    font-weight: 400;
-    letter-spacing: 1px;
+    font-weight: 500;
 }
 .space-used>span{
     font-weight: 700;
