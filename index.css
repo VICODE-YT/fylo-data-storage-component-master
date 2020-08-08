@@ -98,12 +98,22 @@ body{
     color: var(--ms-hyphenate-limit-chars);
 
 }
-.bar-containt{
-    width: 85%;
+.contain-prograssAll{
+    width: 90%;
+/*     background-color: red;
+ */    height: 40%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bar-containt{
+    width: 100%;
+/*     display: flex;
+    justify-content: center; */
 /*     background-color: red;
  */    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .value-storage{
     position: absolute;
@@ -192,6 +202,9 @@ body{
     .header-fylo{   
         margin-bottom: 1em;
     }
+    .contain-prograssAll{
+        justify-content: space-between;
+    }
 
 }
 @media screen and (min-width:928px){/* 1440px */
@@ -219,6 +232,8 @@ body{
         margin-bottom: 0;
         margin-right: 2em;
     }
-
+    .contain-prograssAll{
+        align-items: flex-start;
+    }
 
 }
